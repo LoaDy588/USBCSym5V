@@ -21,8 +21,6 @@ http://www.ti.com/product/lm2940c
 http://www.ti.com/lit/ds/symlink/lm2940c.pdf    
 
 ## Problems
- * TPS65131 can't do 1.5A @ 6.45V for the LDO, internal switch can do only 1.95A, peak current at inductor is over 3A.
- * TPS65131 can't od 1A @ -6.35V for the negative voltage LDO, internal switch can do only 1.95A, peak current at inductor is over 2A.
+ * Still not tested at full power capability, according to datasheet calculations it is overloaded by factor of 2 at full 1A output
 
- * Power negotiation - is CC current detection enough or is PD required?
  * TPS65131 is seemingly the most powerful split rail converter, higher currents would require separate boost and inverting converters.
